@@ -1,4 +1,6 @@
 import entities.*;
+import enums.Dipartimento;
+import interfaces.Lavoratore;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,6 +22,13 @@ public class Main {
         Dipendente[] dipendenti = {d1, d2, d3, d4};
         for (int i = 0; i < dipendenti.length; i++) {
             System.out.println("Lo stipendio del dipendente con la matricola: " + dipendenti[i].getMatricola() + " è: " + dipendenti[i].calucateSalary());
+        }
+
+        Volontario v1 = new Volontario("Tizio", 30, "apprendista", "09:00");
+
+        Lavoratore[] lavoratori = {d1, d2, d3, d4, v1};
+        for (int i = 0; i < lavoratori.length; i++) {
+            lavoratori[i].checkIn("08:00");
         }
     }
 }

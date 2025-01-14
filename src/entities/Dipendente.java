@@ -1,6 +1,9 @@
 package entities;
 
-public abstract class Dipendente {
+import enums.Dipartimento;
+import interfaces.Lavoratore;
+
+public abstract class Dipendente implements Lavoratore {
     //    attributi
     private String matricola;
     private double stipendio;
