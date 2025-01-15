@@ -12,8 +12,7 @@ public class DipendentePartTime extends Dipendente {
 
     @Override
     public double calucateSalary() {
-        double salary;
-        return salary = getStipendio() / 40 * this.hours;
+        return getStipendio() / 40 * this.hours;
     }
 
     @Override

@@ -9,8 +9,7 @@ public class DipendenteFullTime extends Dipendente {
 
     @Override
     public double calucateSalary() {
-        double salary;
-        return salary = getStipendio();
+        return getStipendio();
     }
 
     @Override

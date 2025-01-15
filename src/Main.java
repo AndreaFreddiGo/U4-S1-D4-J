@@ -24,7 +24,7 @@ public class Main {
             System.out.println("Lo stipendio del dipendente con la matricola: " + dipendenti[i].getMatricola() + " è: " + dipendenti[i].calucateSalary());
         }
 
-        Volontario v1 = new Volontario("Tizio", 30, "apprendista", "09:00");
+        Volontario v1 = new Volontario("Tizio", 30, "apprendista");
 
         Lavoratore[] lavoratori = {d1, d2, d3, d4, v1};
         for (int i = 0; i < lavoratori.length; i++) {

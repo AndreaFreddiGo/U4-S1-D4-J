@@ -9,7 +9,7 @@ public class Volontario implements Lavoratore {
     private String CV;
 
     //    costruttori
-    public Volontario(String nome, int età, String CV, String time) {
+    public Volontario(String nome, int età, String CV) {
         this.nome = nome;
         this.età = età;
         this.CV = CV;
@@ -20,3 +20,7 @@ public class Volontario implements Lavoratore {
         System.out.println("Il volontario " + nome + " ha effettuato il check-in alle ore " + orario);
     }
 }
+
+
+
+

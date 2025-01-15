@@ -9,8 +9,7 @@ public class Dirigente extends Dipendente {
 
     @Override
     public double calucateSalary() {
-        double salary;
-        return salary = getStipendio() * 2;
+        return getStipendio() * 2;
     }
 
     @Override
